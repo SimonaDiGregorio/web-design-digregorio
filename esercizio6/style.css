@@ -1,0 +1,38 @@
+* {
+    margin: 0 auto;
+}
+
+#div-absolute {
+    background-color: red;
+    width: 128px;
+    height: 128px;
+
+    position: absolute;
+    right: 30px;
+}
+
+#div-fixed {
+    background-color: green;
+    width: 128px;
+    height: 128px;
+
+    position: fixed;
+    bottom: 20px;
+}
+
+.container {
+    background-color: magenta;
+    width: 200px;
+    height: 200vh;
+}
+
+#div-sticky {
+    background-color: blue; 
+    width: 128px;
+    height: 128px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    position: sticky;
+    top: 50px;
+}

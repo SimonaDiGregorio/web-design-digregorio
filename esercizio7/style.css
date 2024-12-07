@@ -1,0 +1,32 @@
+* {
+    margin: 0 auto;
+}
+
+#div-first {
+    background-color: magenta;
+    width: 200px;
+    height: 100px;
+
+    transition: transform 0.5s;
+}
+
+#div-first:hover {
+    transform: translateX(50px); /* Sposta il div di 50px verso destra */
+}
+
+#div-second {
+    width: 128px;
+    height: 128px;
+
+    animation: changeColor 3s infinite alternate; /* Animazione */
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: blue; /* Colore iniziale */
+    }
+
+    100% {
+        background-color: red; /* Ritorno al colore iniziale */
+    }
+}
